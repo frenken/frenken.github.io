@@ -1,0 +1,610 @@
+@charset "UTF-8";
+
+/* Globaal */
+
+html, body {
+  height:100%;
+  width:100%;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+#wrapper {
+  height:100%;
+  margin: 0 auto;
+  vertical-align: middle;
+  alignment-adjust:middle;
+  width: 1090px;
+  position:relative;
+}
+.maxheight {
+  height:100%;
+}
+a:link {
+  color: #999999;
+  text-decoration: none;
+}
+a:visited {
+  color: #999999;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff9a00;
+  text-decoration: none;
+}
+a:active {
+  color: #ff9a00;
+  text-decoration: none;
+}
+
+.menupunten {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  list-style-type: none;
+  list-style-image: url(images/listbullet.png);
+  line-height:26px;
+  margin-top:0px;
+}
+li a:link {
+  font-weight: normal;
+  color: #ffffff;
+  text-decoration: none;
+}
+li a:visited {
+  font-weight: normal;
+  color: #ffffff;
+  text-decoration: none;
+}
+li a:hover {
+  font-weight: normal;
+  color: #ff9a00;
+  text-decoration: none;
+}
+li a:active {
+  font-weight: normal;
+  color: #ff9a00;
+  text-decoration: none;
+}
+
+/* Grijs menu */
+.grijsmenu a:link {
+  color: #999999;
+  text-decoration: none;
+}
+.grijsmenu a:visited {
+  color: #999999;
+  text-decoration: none;
+}
+.grijsmenu a:hover {
+  color: #ff9a00;
+  text-decoration: none;
+}
+.grijsmenu a:active {
+  color: #ff9a00;
+  text-decoration: none;
+}
+
+/* Lichtgrijs menu */
+.lichtgrijsmenu a:link {
+  color: #cccccc;
+  text-decoration: none;
+}
+.lichtgrijsmenu a:visited {
+  color: #cccccc;
+  text-decoration: none;
+}
+.lichtgrijsmenu a:hover {
+  color: #ff9a00;
+  text-decoration: none;
+}
+.lichtgrijsmenu a:active {
+  color: #ff9a00;
+  text-decoration: none;
+}
+.menupuntengrijs li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  list-style-image: url(images/listbullet.png);
+  line-height:26px;
+  margin-top:0px;
+  margin-left:-25px;
+}
+.menupuntengrijs li a:link {
+  color: #999999;
+  text-decoration: none;
+}
+.menupuntengrijs li a:visited {
+  color: #999999;
+  text-decoration: none;
+}
+.menupuntengrijs li a:hover {
+  color: #ff9a00;
+  text-decoration: none;
+}
+.menupuntengrijs li a:active {
+  color: #ff9a00;
+  text-decoration: none;
+}
+.tekstenrechtsframe {
+  width: 100%;
+  height:100%;
+  /*overflow:visible;
+  overflow-x: hidden;
+  overflow-y: hidden; */
+}
+.navigatiepijltjes {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 28px;
+}
+.navigatiepijltjes a:link {
+  color: #ff9a00;
+  text-decoration: none;
+  margin-bottom:-6px;
+}
+.navigatiepijltjes a:visited {
+  color: #ff9a00;
+  text-decoration: none;
+  margin-bottom:-6px;
+}
+.navigatiepijltjes a:hover {
+  color: #0099CC;
+  text-decoration: none;
+  margin-bottom: -6px;
+}
+.navigatiepijltjes a:active {
+  color: #0099CC;
+  text-decoration: none;
+  margin-bottom:-6px;
+}
+
+/* Voorpagina */
+
+.tekst_welkom {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #cccccc;
+}
+.tekst_welkom a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+.tekst_welkom a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.tekst_welkom a:hover {
+  color: #ff9a00;
+  text-decoration: none;
+}
+.tekst_welkom a:active {
+  color: #ff9a00;
+  text-decoration: none;
+}
+
+/* Werk */
+
+.werkmenutekst {
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 14px;
+  color:#888888; 
+  margin-bottom:16px; 
+}
+.tekstenrechts {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  text-align:justify;
+  margin:30px;
+}
+.poortencontent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  color: #cccccc;
+  margin:20px;
+  width:400px;
+}
+.zevenstatiescontent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  color: #333333;
+  margin-left:173px; 
+  margin-right:20px; 
+  text-align:left;
+}
+.boekcontent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  color: #E4DED3;
+  margin-left:140px;
+  margin-top:30px;
+  margin-right: 40px;
+}
+.boekithakacontent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  color: #E4DED3;
+  margin-left:140px;
+  margin-top:30px;
+  margin-right: 40px;
+}
+.zevenstatiestitel {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  color: #666666;
+}
+.boektitel {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  color: #666666;
+  margin:8px;
+}
+.lijntjerechts {
+  background-image:url(werk/images/puntje.gif);
+  background-position:right;
+  background-repeat:repeat-y;
+}
+.portrettentitel {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  color: #666666;
+  margin:8px;
+}
+.kerstwensachtergrond {
+  background-image:url(werk/images/kaligrafie_achtergrond.png);
+  background-position:  120px 30px;
+  background-repeat:no-repeat;
+  }
+.kerstwensDIV1 {
+  position:absolute;
+  left:294px;
+  top:202px;
+}
+.boekDIV3b {
+  position:absolute;
+  right:545px;
+  top:476px;
+}
+.boekDIV4b {
+  position:absolute;
+  left:0px;
+  top:400px;
+}
+.boekDIV5c {
+  position:absolute;
+  right:545px;
+  top:418px;
+}
+.boekDIV8b {
+  position:absolute;
+  left:0px;
+  top:460px;
+}
+.boekDIV8c {
+  position:absolute;
+  left:190px;
+  top:460px;
+}
+.boekDIV8d {
+  position:absolute;
+  right:545px;
+  top:460px;
+}
+.boekDIV8titel {
+  position:absolute;
+  right:545px;
+  top:694px;
+  width:300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  color: #999999;
+  margin:8px;
+  text-align:right;
+}
+.boekDIV11b {
+  position:absolute;
+  right:545px;
+  top:217px;
+}
+.boekDIV11c {
+  position:absolute;
+  right:545px;
+  top:407px;
+}
+.boekDIV11d {
+  position:absolute;
+  right:545px;
+  top:607px;
+}
+.boekDIV11btitel {
+  position:absolute;
+  right:545px;
+  top:371px;
+  width:300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  color: #999999;
+  margin:2px;
+  text-align:right;
+}
+.boekDIV11ctitel {
+  position:absolute;
+  right:545px;
+  top:566px;
+  width:300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  color: #999999;
+  margin:2px;
+  text-align:right;
+}
+.boekDIV12titel {
+  position:absolute;
+  right:745px;
+  top:600px;
+  width:300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  color: #999999;
+  margin:8px;
+  text-align:right;
+}
+
+/* Galeries */
+
+.galeriecontent {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11pt;
+  color: #666666;
+  margin:20px;
+  line-height: 40px;
+  margin-top:97px;
+  margin-left:55px;
+}
+.galeriecontent strong {
+  color: #333333;
+  font-weight:normal;
+}
+.galeriecontent i {
+  font-size:12pt;
+  color: #333333;
+  font-weight:normal;
+  font-style:normal;
+}
+.galeriecontent a:link {
+  color: #666666;
+  text-decoration: none;
+}
+.galeriecontent a:visited {
+  color: #666666;
+  text-decoration: none;
+}
+.galeriecontent a:hover {
+  color: #ff9a00;
+  text-decoration: none;
+}
+.galeriecontent a:active {
+  color: #ff9a00;
+  text-decoration: none;
+}
+
+/* Leven */
+
+.kortebiografie {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  color:#000000;
+}
+.kortebiografie h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  font-weight:normal;
+  color:#993300;
+}
+.kortebiografie strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight:normal;
+  color:#993300;
+}
+.kortebiografie a:link {
+  color: #000000;
+  text-decoration: none;
+  font-weight:bold;
+}
+.kortebiografie a:visited {
+  color: #000000;
+  text-decoration: none;
+  font-weight:bold;
+}
+.kortebiografie a:hover {
+  color: #ff9a00;
+  text-decoration: none;
+  font-weight:bold;
+}
+.kortebiografie a:active {
+  color: #ff9a00;
+  text-decoration: none;
+  font-weight:bold;
+}
+.tentoonstellingenachtergrond {
+  background-image:url(leven/images/tentoonstellingen_achtergrond.jpg);
+  background-repeat:no-repeat;
+  
+}
+.tentoonstellingen {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  color:#000000;
+  margin-top:70px;
+  line-height:15px;
+}
+.tentoonstellingen h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  font-weight:normal;
+  color:#999999;
+}
+.tentoonstellingen strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight:normal;
+  color:#ffffff;
+}
+.fotocredit {
+  position:absolute;
+  right:-30px;
+  top:38px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8pt;
+  color:#999999;
+  font-style:italic;
+  -webkit-transform: rotate(-90deg);  
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);  
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.fotocredit2 {
+  position:absolute;
+  right:4px;
+  top:386px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 8pt;
+  color:#333333;
+  font-style:italic;
+}
+.tekstenjeroenbosch {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  text-align:justify;
+  margin:30px;
+}
+.tekstenjeroenbosch h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  font-weight:bold;
+  color:#000000;
+}
+.tekstenjeroenbosch a:link {
+  color: #CC3300;
+  text-decoration: none;
+  font-weight:bold;
+}
+.tekstenjeroenbosch a:visited {
+  color: #CC3300;
+  text-decoration: none;
+  font-weight:bold;
+}
+.tekstenjeroenbosch a:hover {
+  color: #000000;
+  text-decoration: none;
+  font-weight:bold;
+}
+.tekstenjeroenbosch a:active {
+  color: #000000;
+  text-decoration: none;
+  font-weight:bold;
+}
+.onthullingfotocredits {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 9pt;
+  width:460px;
+  margin:4px;
+}
+.kunstcriticus {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  color:#000000;
+}
+.kunstcriticus h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  font-weight:normal;
+  color:#000000;
+}
+.kunstcriticus strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  font-weight:normal;
+  color:#993300;
+}
+.kunstcriticus li {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 13px !important;
+  font-style:normal !important;
+  line-height:14px !important;
+  list-style:disc !important;
+  padding:0px !important;
+  margin-left:-24px !important;
+  margin-top:0 !important;
+
+}
+
+/* Actueel */
+
+.actueeltekst {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  text-align:justify;
+  margin:30px;
+}
+.actueeltekst h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  color:#000000;
+  display: inline;
+}
+.actueeltekst a:link {
+  color: #000000;
+  text-decoration: none;
+  font-weight:bold;
+}
+.actueeltekst a:visited {
+  color: #000000;
+  text-decoration: none;
+  font-weight:bold;
+}
+.actueeltekst a:hover {
+  color: #ff9a00;
+  text-decoration: none;
+  font-weight:bold;
+}
+.actueeltekst a:active {
+  color: #ff9a00;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+/* Contact */
+
+.contactmail {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight:bold;
+}
+.contactmail a:link {
+  color: #000000;
+  text-decoration: none;
+}
+.contactmail a:visited {
+  color: #000000;
+  text-decoration: none;
+}
+.contactmail a:hover {
+  color: #ff9a00;
+  text-decoration: none;
+}
+.contactmail a:active {
+  color: #ff9a00;
+  text-decoration: none;
+}
